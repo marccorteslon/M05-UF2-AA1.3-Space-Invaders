@@ -8,5 +8,9 @@ public class Proyectil : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (collision.CompareTag("Shield"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

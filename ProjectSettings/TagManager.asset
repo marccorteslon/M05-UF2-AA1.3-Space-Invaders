@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - PlayerBullet
+  - Shield
+  - LimitLeft
+  - LimitRight
   layers:
   - Default
   - TransparentFX
