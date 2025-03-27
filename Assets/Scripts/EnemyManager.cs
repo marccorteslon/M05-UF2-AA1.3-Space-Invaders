@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementEnemy : MonoBehaviour
+public class EnemyManager : MonoBehaviour
 {
     public float speed = 2f;
     public float moveDownAmount = 0.5f;
     public float boundary = 7f;
+    public GameObject projectilePrefab;
+    public float shootInterval = 2f;
     private int direction = 1;
+
+    void Start()
+    {
+        StartCoroutine(ShootRoutine());
+    }
 
     void Update()
     {
@@ -29,5 +36,22 @@ public class MovementEnemy : MonoBehaviour
     {
         direction *= -1; // Invertir dirección
         transform.position += Vector3.down * moveDownAmount; // Bajar el grupo
+    }
+
+    IEnumerator ShootRoutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(shootInterval);
+            ShootProjectile();
+        }
+    }
+
+    void ShootProjectile()
+    {
+        if (transform.childCount == 0) return;
+
+        Transform randomEnemy = transform.GetChild(Random.Range(0, transform.childCount));
+        Instantiate(projectilePrefab, randomEnemy.position, Quaternion.identity);
     }
 }
