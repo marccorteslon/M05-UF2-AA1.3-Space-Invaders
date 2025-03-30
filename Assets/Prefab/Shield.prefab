@@ -236,4 +236,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidas: 3
-  reductionFactor: 0.8
+  reductionFactor: 0.7

@@ -276,7 +276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -2.3100002
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1995,7 +1995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -2.3100002
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4194,7 +4194,7 @@ Transform:
   m_GameObject: {fileID: 1682304475}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.39, z: 0}
+  m_LocalPosition: {x: 0, y: -4.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4326,7 +4326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -2.3100002
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4573,7 +4573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.3
-  moveDownAmount: 0.4
+  moveDownAmount: 0.3
   boundary: 8
   projectilePrefab: {fileID: 4005949157343613073, guid: a15519ec4e8a70c4baed69af07a7c66d, type: 3}
   shootInterval: 2
@@ -4586,7 +4586,7 @@ Transform:
   m_GameObject: {fileID: 1789125341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.91312075, y: 2.82, z: -0.08419928}
+  m_LocalPosition: {x: -0.91312075, y: 1.35, z: -0.08419928}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5450,7 +5450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -2.3100002
       objectReference: {fileID: 0}
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5483,6 +5483,10 @@ PrefabInstance:
     - target: {fileID: 4009049332689328142, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346696466282956457, guid: dbb349654e19cd5499da116871e031b4, type: 3}
+      propertyPath: reductionFactor
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8342154443780394697, guid: dbb349654e19cd5499da116871e031b4, type: 3}
       propertyPath: m_Name
