@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyProjectile : MonoBehaviour
+public class EnemyProyectile : MonoBehaviour
 {
     public float speed = 5f; // Mantén el valor positivo
 

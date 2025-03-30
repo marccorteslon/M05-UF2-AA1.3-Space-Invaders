@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5233231270110490502}
   - component: {fileID: 3306562327711768561}
   - component: {fileID: 4862720425002800960}
+  - component: {fileID: 5346696466282956457}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Shield
@@ -217,5 +218,22 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6864276147369143039, guid: ff487de3d4a4b6c4bba6d3ee82e017e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5346696466282956457}
   m_SourcePrefab: {fileID: 100100000, guid: ff487de3d4a4b6c4bba6d3ee82e017e6, type: 3}
+--- !u!114 &5346696466282956457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342154443780394697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273ac7d3be427c2458b145d8008203a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidas: 3
+  reductionFactor: 0.8
